@@ -1,0 +1,45 @@
+.bkgreen {
+    background-color: #0CD6A1;
+}
+
+.bkyellow {
+    background-color: #FFD166;
+}
+
+.bkpink {
+    background-color: #F0466F;
+}
+
+.bkblue {
+    background-color: #1389B2;
+}
+
+body {
+    background-color: #083B4C;
+}
+
+.box {
+    aspect-ratio: 1;
+    color: black;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.title {
+    color: white;
+    font-size: 95px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.cont {
+    max-width: 1363px;
+}
