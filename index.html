@@ -6,11 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FizzBuzz</title>
     <link rel="stylesheet" href="css/app.css">
+    <style>
+        .grid {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(8, 1fr);
+        }
+
+        .box {
+            aspect-ratio: 1;
+            background-color: chocolate;
+            border: 1px solid black;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
 
-
+    <div class="grid"></div>
 
 
     <script src="js/app.js"></script>
